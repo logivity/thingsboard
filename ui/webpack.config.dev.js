@@ -51,7 +51,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/index.html',
             filename: 'index.html',
-            title: 'ThingsBoard',
+            title: 'Logitrix',
             inject: 'body',
         }),
         new webpack.optimize.OccurrenceOrderPlugin(),
